@@ -79,7 +79,23 @@ local items = {
     -- Restored Artifact
     87399,
     -- key stones
-
+    109584,     -- Ogre Missive
+    79869,      -- Mogu Statue Piece
+    78868,      -- Pandaren Pottery Shard
+    64397,      -- Tol'vir Hieroglypic
+    52843,      -- Dwarf Rune Stone
+    63128,      -- Troll Tablet
+    63127,      -- Highborne Scroll
+    64394,      -- Draenei Tome
+    64392,      -- Orc Blood Text
+    64395,      -- Vrykul Rune Stick
+    64396,      -- Nerubian Obelisk
+    95373,      -- Mantid Amber Sliver
+    109585,     -- Arakkoa Cipher
+    108349,     -- Draenor Clan Orator Cane
+    130905,     -- Mark of the Deceiver
+    130903,     -- Ancient Suramar Scroll
+    130904,     -- Highmountain Ritual-Stone
 }
 
 local purchases = {
