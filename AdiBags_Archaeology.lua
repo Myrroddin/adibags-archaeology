@@ -13,12 +13,12 @@ local L = setmetatable({}, {
 
 local LOCALE = GetLocale()
 if LOCALE == "enUS" then
+L["Archaeology Bought Items"] = true
 L["Archaeology Items"] = true
 L["Filter all crates, completed artifacts, key stones, and restored artifacts into their own category."] = true
+L["Purchasable things from vendors."] = true
 L["Put the artifact on display."] = true
 L["Use: Carefully crate the restored artifact."] = true
-L["Archaeology Bought Items"] = true
-L["Purchasable things from vendors."] = true
 elseif LOCALE == "deDE" then
 --@localization(locale="deDE", format="lua_additive_table")@
 elseif LOCALE == "koKR" then
