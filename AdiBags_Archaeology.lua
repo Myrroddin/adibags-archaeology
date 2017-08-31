@@ -92,7 +92,7 @@ local items = {
     64396,      -- Nerubian Obelisk
     95373,      -- Mantid Amber Sliver
     109585,     -- Arakkoa Cipher
-    108349,     -- Draenor Clan Orator Cane
+    108439,     -- Draenor Clan Orator Cane
     130905,     -- Mark of the Deceiver
     130903,     -- Ancient Suramar Scroll
     130904,     -- Highmountain Ritual-Stone
