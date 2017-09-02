@@ -18,6 +18,7 @@ L["Archaeology Items"] = true
 L["Filter all crates, completed artifacts, key stones, and restored artifacts into their own category."] = true
 L["Purchasable things from vendors."] = true
 L["Put the artifact on display."] = true
+L["Rewards from Legion Archaeology quests. Does not include toys or mounts."] = true
 L["Use: Carefully crate the restored artifact."] = true
 elseif LOCALE == "deDE" then
 --@localization(locale="deDE", format="lua_additive_table")@
@@ -107,6 +108,10 @@ local purchases = {
     104198,     -- Mantid Artifact Hunter's Kit
 }
 
+local quest_items = {
+    136362,     -- Ancient War Remnants
+}
+
 local function MatchIDs_Init(self)
     table.wipe(Result)
     if self.db.profile.moveItems then
@@ -115,6 +120,10 @@ local function MatchIDs_Init(self)
 
     if self.db.profile.moveCurrency then
         AddToSet(Result, purchases)
+    end
+
+    if self.db.profile.moveQuestItems then
+        AddToSet(Result, quest_items)
     end
 
     return Result
@@ -141,7 +150,8 @@ function setFilter:OnInitialize()
     self.db = AdiBags.db:RegisterNamespace("Archaeology", {
         profile = {
             moveItems = true,
-            moveCurrency = true
+            moveCurrency = true,
+            moveQuestItems = true,
         }
     })
 end
@@ -198,6 +208,12 @@ function setFilter:GetOptions()
             desc = L["Purchasable things from vendors."],
             type = "toggle",
             order = 20,
+        },
+        moveQuestItems = {
+            name = AUCTION_CATEGORY_QUEST_ITEMS,
+            desc = L["Rewards from Legion Archaeology quests. Does not include toys or mounts."],
+            type = "toggle",
+            order = 30
         }
     },
     AdiBags:GetOptionHandler(self, false, function()
