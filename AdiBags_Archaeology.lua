@@ -110,6 +110,21 @@ local purchases = {
 
 local quest_items = {
     136362,     -- Ancient War Remnants
+    130924,     -- Pristine Pre-War Highborne Tapestry
+    130931,     -- Pristine Imp's Cup
+    130933,     -- Pristine Malformed Abyssal
+    130935,     -- Pristine Houndstooth Hauberk
+    130922,     -- Pristine Inert Leystone Charm
+    130926,     -- Pristine Trailhead Drum
+    130928,     -- Pristine Hand-Smoothed Pyrestone
+    130930,     -- Pristine Stonewood Bow
+    130932,     -- Pristine Flayed-Skin Chronicle
+    130934,     -- Pristine Orb of Inner Chaos
+    130921,     -- Pristine Violetglass Vessel
+    130923,     -- Pristine Quietwine Vial
+    130925,     -- Pristine Nobleman's Letter Opener
+    130927,     -- Pristine Moosebone Fish-Hook
+    130929,     -- Pristine Drogbar Gem-Roller
 }
 
 local function MatchIDs_Init(self)
@@ -174,11 +189,11 @@ function setFilter:Filter(slotData)
 	if MatchIDs[slotData.itemId] then
 		return PROFESSIONS_ARCHAEOLOGY
 	end
-	
+
 	Tooltip = Tooltip or Tooltip_Init()
 	Tooltip:SetOwner(UIParent,"ANCHOR_NONE")
 	Tooltip:ClearLines()
-	
+
 	if slotData.bag == BANK_CONTAINER then
 		Tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(slotData.slot, nil))
 	else
@@ -191,7 +206,7 @@ function setFilter:Filter(slotData)
             return PROFESSIONS_ARCHAEOLOGY
         end
     end
-	
+
 	Tooltip:Hide()
 end
 
