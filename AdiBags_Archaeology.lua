@@ -82,7 +82,7 @@ local items = {
     -- key stones
     109584,     -- Ogre Missive
     79869,      -- Mogu Statue Piece
-    78868,      -- Pandaren Pottery Shard
+    79868,      -- Pandaren Pottery Shard
     64397,      -- Tol'vir Hieroglypic
     52843,      -- Dwarf Rune Stone
     63128,      -- Troll Tablet
