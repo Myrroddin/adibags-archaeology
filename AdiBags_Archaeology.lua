@@ -97,6 +97,8 @@ local items = {
     130905,     -- Mark of the Deceiver
     130903,     -- Ancient Suramar Scroll
     130904,     -- Highmountain Ritual-Stone
+    154989,     -- Zandalari Idol
+    154990,     -- Etched Drust Bone
 }
 
 local purchases = {
@@ -125,6 +127,18 @@ local quest_items = {
     130925,     -- Pristine Nobleman's Letter Opener
     130927,     -- Pristine Moosebone Fish-Hook
     130929,     -- Pristine Drogbar Gem-Roller
+    51951,      -- Pristine Ancient Runebound Tome
+    51950,      -- Pristine Ceremonial Bonesaw
+    51952,      -- Pristine Disembowling Sickle
+    51953,      -- Pristine Jagged Blade of the Drust
+    51954,      -- Pristine Ritual Fetish
+    51955,      -- Pristine Soul Coffer
+    51926,      -- Pristine Akun'Jar Vase
+    51937,      -- Pristine Blowgun of the Sethrak
+    51936,      -- Pristine Bwonsamdi Voodoo Mask
+    51934,      -- Pristine High Apothecary's Hood
+    51932,      -- Pristine Rezan Idol
+    51929,      -- Pristine Urn of Passage
 }
 
 local function MatchIDs_Init(self)
