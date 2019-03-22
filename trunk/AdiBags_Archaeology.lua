@@ -77,6 +77,9 @@ local items = {
     142113,     -- Arakkoa
     142114,     -- Draenor Clans
     142115,     -- Ogre
+    164625,     -- Demon
+    164626,     -- Highborne
+    164627,     -- Tauren
     -- Restored Artifact
     87399,
     -- key stones
