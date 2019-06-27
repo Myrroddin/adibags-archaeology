@@ -1,4 +1,4 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: AdiBags - Archaeology
 ## Notes: Adds Archaeology items to AdiBags virtual groups
 ## Notes-ruRU: @localization(locale="ruRU", key="Notes", namespace="ToC")@
