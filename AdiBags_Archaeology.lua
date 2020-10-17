@@ -80,6 +80,8 @@ local items = {
     164625,     -- Demon
     164626,     -- Highborne
     164627,     -- Tauren
+    183834,     -- Drust
+    183835,     -- Zandalari
     -- Restored Artifact
     87399,
     -- key stones
