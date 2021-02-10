@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: AdiBags - Archaeology
 ## Notes: Adds Archaeology items to AdiBags virtual groups
 ## Notes-ruRU: @localization(locale="ruRU", key="Notes", namespace="ToC")@
@@ -15,8 +15,11 @@
 ## Version: @project-version@
 ## Author: Paul "Myrroddin" Vandersypen
 ## X-Date: @project-date-iso@
-## X-License: © 2017 - 2020 Paul Vandersypen, All Rights Reserved
+## X-License: © 2017 - 2021 Paul Vandersypen, All Rights Reserved
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
+
+## X-Curse-Project-ID: 275546
+## X-WoWI-ID: 24455
 
 AdiBags_Archaeology.lua

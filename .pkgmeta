@@ -1,0 +1,7 @@
+package-as: AdiBags_Archaeology
+
+required-dependencies:
+    - adibags
+
+tools-used:
+    - findglobals
