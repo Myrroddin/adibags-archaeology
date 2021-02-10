@@ -119,10 +119,19 @@ local purchases = {
     117389,     -- Draenor Achaeologist's Lodestone
     117390,     -- Draenor Archaeologist's Map
     104198,     -- Mantid Artifact Hunter's Kit
+    118728,     -- Shadowmoon Valley Treasure Map
+    118729,     -- Gorgrond Treasure Map
+    118730,     -- Talador Treasure Map
+    118731,     -- Spires of Arak Treasure Map
+    118732,     -- Nagrand Treasure Map
 }
 
 local quest_items = {
     136362,     -- Ancient War Remnants
+    134086,     -- Surveying Equipment
+    131743,     -- Blood of Young Mannoroth
+    136372,     -- Archaeologist's Whistle
+    135488,     -- Goblin Explosives
     130924,     -- Pristine Pre-War Highborne Tapestry
     130931,     -- Pristine Imp's Cup
     130933,     -- Pristine Malformed Abyssal
@@ -157,6 +166,49 @@ local quest_items = {
     114168,     -- Pristine Ceremonial Tattoo Needles
     114215,     -- Pristine Dreamcatcher
     89169,      -- Pristine Manacles of Rebellion
+    114160,     -- Pristine Weighted Chopping Axe
+    114208,     -- Pristine Gladiator's Shield
+    95386,      -- Pristine Sound Beacon
+    95387,      -- Pristine Remains of a Paragon
+    95388,      -- Pristine Mantid Lamp
+    95389,      -- Pristine Pollen Collector
+    114148,     -- Pristine Warsinger's Drums
+    114158,     -- Pristine Blackrock Razor
+    114178,     -- Pristine Doomsday Prophecy
+    114142,     -- Pristine Fang-Scarred Frostwolf Axe
+    114152,     -- Pristine Warsong Ceremonial Pike
+    114166,     -- Pristine Calcified Eye In a Jar
+    114182,     -- Pristine Stonemaul Succession Stone
+    114184,     -- Pristine Stone Manacles
+    114221,     -- Pristine Outcast Dreamcatcher
+    114222,     -- Pristine Apexis Crystal
+    95390,      -- Pristine Kypari Sap Container
+    114144,     -- Pristine Frostwolf Ancestry Scrimshaw
+    114154,     -- Pristine Metalworker's Hammer
+    114164,     -- Pristine Barbed Fishing Hook
+    114174,     -- Pristine Flask of Blazegrease
+    114176,     -- Pristine Gronn-Tooth Necklace
+    114186,     -- Pristine Ogre Figurine
+    114188,     -- Pristine Pictogram Carving
+    114209,     -- Pristine Mortar and Pestle
+    114210,     -- Pristine Eye of Har'gunn the Blind
+    114213,     -- Pristine Imperial Decree Stele
+    114216,     -- Pristine Burial Urn
+    114218,     -- Pristine Solar Orb
+    114219,     -- Pristine SUndial
+    114220,     -- Pristine Talonpriest Mask
+    114223,     -- Pristine Apexis Hieroglyph
+    95385,      -- Pristine Praying Mantid
+    114150,     -- Pristine Screaming Bullroarer
+    114156,     -- Pristine Elemental Bellows
+    114170,     -- Pristine Cracked Ivory Idol
+    114172,     -- Pristine Ancestral Talisman
+    114180,     -- Pristine Headdress of the First Shaman
+    114211,     -- Pristine Stone Dentures
+    114212,     -- Pristine Rylak Riding Harness
+    114214,     -- Pristine Sorcerer-King Toe Ring
+    114224,     -- Pristine Apexis Scroll
+    114217,     -- Pristine Decree Scrolls
 }
 
 local function MatchIDs_Init(self)
