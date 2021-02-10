@@ -156,6 +156,7 @@ local quest_items = {
     114146,     -- Pristine Wolfskin Snowshoes
     114168,     -- Pristine Ceremonial Tattoo Needles
     114215,     -- Pristine Dreamcatcher
+    89169,      -- Pristine Manacles of Rebellion
 }
 
 local function MatchIDs_Init(self)
