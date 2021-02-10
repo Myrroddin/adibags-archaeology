@@ -82,8 +82,10 @@ local items = {
     164627,     -- Tauren
     183834,     -- Drust
     183835,     -- Zandalari
+
     -- Restored Artifact
     87399,
+
     -- key stones
     109584,     -- Ogre Missive
     79869,      -- Mogu Statue Piece
@@ -104,6 +106,10 @@ local items = {
     130904,     -- Highmountain Ritual-Stone
     154989,     -- Zandalari Idol
     154990,     -- Etched Drust Bone
+
+    -- books
+    136419,     -- Excavator's Notebook (Legion)
+    109586,     -- Brittle Cartography Journal (WoD)
 }
 
 local purchases = {
@@ -144,6 +150,12 @@ local quest_items = {
     51934,      -- Pristine High Apothecary's Hood
     51932,      -- Pristine Rezan Idol
     51929,      -- Pristine Urn of Passage
+    95384,      -- Pristine Ancient Sap Feeder
+    114162,     -- Pristine Hooked Dagger
+    95383,      -- Pristine Banner of the Mantid Empire
+    114146,     -- Pristine Wolfskin Snowshoes
+    114168,     -- Pristine Ceremonial Tattoo Needles
+    114215,     -- Pristine Dreamcatcher
 }
 
 local function MatchIDs_Init(self)
