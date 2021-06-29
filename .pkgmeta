@@ -1,4 +1,5 @@
 package-as: AdiBags_Archaeology
+wowi-archive-previous: no
 
 required-dependencies:
     - adibags
