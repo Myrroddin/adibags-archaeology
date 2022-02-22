@@ -15,7 +15,7 @@
 ## Version: @project-version@
 ## Author: Paul "Myrroddin" Vandersypen
 ## X-Date: @project-date-iso@
-## X-License: © 2017 - 2021 Paul Vandersypen, All Rights Reserved
+## X-License: © 2017 - 2022 Paul Vandersypen, All Rights Reserved
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
 
