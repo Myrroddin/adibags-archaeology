@@ -3,6 +3,3 @@ wowi-archive-previous: no
 
 required-dependencies:
     - adibags
-
-tools-used:
-    - findglobals
