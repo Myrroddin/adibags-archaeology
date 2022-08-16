@@ -67,10 +67,10 @@ local items = {
     87534,      -- Draenei
     87535,      -- Fossil
     87537,      -- Nerubian
-    87538,      -- Orc
-    87539,      -- Tol'vir
     87540,      -- Troll
     87541,      -- Vrykul
+    87538,      -- Orc
+    87539,      -- Tol'vir
     117386,     -- Pandaren
     117387,     -- Mogu
     117388,     -- Mantid
@@ -87,17 +87,13 @@ local items = {
     87399,
 
     -- key stones
-    109584,     -- Ogre Missive
-    79869,      -- Mogu Statue Piece
-    79868,      -- Pandaren Pottery Shard
-    64397,      -- Tol'vir Hieroglypic
     52843,      -- Dwarf Rune Stone
     63128,      -- Troll Tablet
     63127,      -- Highborne Scroll
     64394,      -- Draenei Tome
-    64392,      -- Orc Blood Text
     64395,      -- Vrykul Rune Stick
     64396,      -- Nerubian Obelisk
+    64392,      -- Orc Blood Text
     95373,      -- Mantid Amber Sliver
     109585,     -- Arakkoa Cipher
     108439,     -- Draenor Clan Orator Cane
@@ -106,6 +102,10 @@ local items = {
     130904,     -- Highmountain Ritual-Stone
     154989,     -- Zandalari Idol
     154990,     -- Etched Drust Bone
+    109584,     -- Ogre Missive
+    79869,      -- Mogu Statue Piece
+    79868,      -- Pandaren Pottery Shard
+    64397,      -- Tol'vir Hieroglypic
 
     -- books
     136419,     -- Excavator's Notebook (Legion)
@@ -221,7 +221,7 @@ local function MatchIDs_Init(self)
         AddToSet(Result, purchases)
     end
 
-    if self.db.profile.moveQuestItems then
+   if self.db.profile.moveQuestItems then
         AddToSet(Result, quest_items)
     end
 
