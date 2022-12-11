@@ -23,4 +23,6 @@
 ## X-WoWI-ID: 24455
 ## X-Wago-ID: RqGZxb6d
 
+Localization.lua
+Database.lua
 AdiBags_Archaeology.lua
