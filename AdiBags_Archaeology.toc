@@ -11,11 +11,12 @@
 ## Notes-zhTW: @localization(locale="zhTW", key="Notes", namespace="ToC")@
 ## Notes-itIT: @localization(locale="itIT", key="Notes", namespace="ToC")@
 ## Notes-frFR: @localization(locale="frFR", key="Notes", namespace="ToC")@
+## IconTexture: Interface\ICONS\Inv_misc_1h_blacksmithshovel_a_01
 
 ## Version: @project-version@
-## Author: Paul "Myrroddin" Vandersypen
+## Author: Sygon_Paul
 ## X-Date: @project-date-iso@
-## X-License: © 2023 Paul Vandersypen, All Rights Reserved
+## X-License: Copyright © 2023 Paul Vandersypen, All Rights Reserved
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
 
