@@ -1,6 +1,6 @@
 --[[
 AdiBags_Archaeology - Adds Archaeology items to AdiBags virtual groups
-Copyright © 2023 Paul Vandersypen, All Rights Reserved
+Copyright © 2024 Paul Vandersypen, All Rights Reserved
 ]]--
 
 local _, addon = ...
