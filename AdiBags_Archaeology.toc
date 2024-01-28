@@ -16,7 +16,7 @@
 ## Version: @project-version@
 ## Author: Sygon_Paul
 ## X-Date: @project-date-iso@
-## X-License: Copyright © 2023 Paul Vandersypen, All Rights Reserved
+## X-License: Copyright © 2024 Paul Vandersypen, All Rights Reserved
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
 
